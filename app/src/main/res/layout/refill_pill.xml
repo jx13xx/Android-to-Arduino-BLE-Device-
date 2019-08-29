@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plus_2">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/pill_refill_amt"
+        android:layout_marginTop="200dp"
+        android:text="Refill : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17"
+        android:text="Panadol"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/pill_refill_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="227dp"
+        android:ems="10"
+        android:hint="Enter Refil Amount"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/refill_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="145dp"
+        android:layout_marginStart="130dp"
+        android:text="Update Pill" />
+</RelativeLayout>

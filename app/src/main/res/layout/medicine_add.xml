@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="@dimen/abc_text_size_body_1_material"
+                android:text="Add Medicine"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#2468d6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/abc_text_size_body_2_material"
+                android:scaleType="fitXY"
+                android:src="@drawable/medicine_back" />
+
+            <TextView
+
+                android:id="@+id/textview89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/abc_text_size_body_1_material"
+                android:layout_marginTop="@dimen/abc_text_size_body_1_material"
+                android:text="Medicine Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#2468d6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/med_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="Enter Medicine Name"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/abc_text_size_body_1_material"
+                android:layout_marginTop="@dimen/abc_text_size_body_1_material"
+                android:text="Medicine Qty"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#2468d6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/med_qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="Enter Qty of Medicine"
+                android:inputType="number"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/abc_text_size_body_1_material"
+                android:layout_marginTop="@dimen/abc_text_size_body_1_material"
+                android:text="Medicine Expiry"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#2468d6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/med_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="Expiry Date"
+                android:inputType="date"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/med_btn"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:background="#2468d6"
+                android:text="Add Medicine"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
